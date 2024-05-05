@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API-Tests\\Cities-API-Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API-Tests\\Cities-API-Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API-Tests\\Cities-API-Tests.csproj",
+        "projectName": "Cities-API-Tests",
+        "projectPath": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API-Tests\\Cities-API-Tests.csproj",
+        "packagesPath": "C:\\Users\\rhogg\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API-Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rhogg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API\\Cities-API.csproj": {
+                "projectPath": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API\\Cities-API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API\\Cities-API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API\\Cities-API.csproj",
+        "projectName": "Cities-API",
+        "projectPath": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API\\Cities-API.csproj",
+        "packagesPath": "C:\\Users\\rhogg\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Faculdade\\7-Periodo\\Técnicas Avançadas de Construção de Software\\Cities-API-with-C#\\Cities-API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rhogg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[32.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
